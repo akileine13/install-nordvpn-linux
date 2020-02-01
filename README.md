@@ -3,9 +3,10 @@ Install Nordvpn on Linux.
 
 First, go to https://nordvpn.com/download/linux/ and download file .deb.
 
-After, download the bash script:
+After, download the bash script and go in folder:
 ```
-wget https://github.com/akileine13/install-nordvpn-linux/blob/master/installNordvpn.sh
+git clone https://github.com/akileine13/install-nordvpn-linux.git
+cd install-nordvpn-linux
 ```
 Give rights to the file:
 ```
@@ -17,7 +18,7 @@ And for finish, launch script:
 ```
 For launch Nordvpn:
 ```
-nordvpn connect yourCountry
+nordvpn connect yourCountry (ex: nordvpn connect Germany)
 ```
 
 **A video is coming soon ! 😉**
